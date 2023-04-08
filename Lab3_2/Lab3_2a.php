@@ -1,4 +1,5 @@
 <?php
+
 if (!empty($_REQUEST['text'])) {
     $str = $_REQUEST['text'];
     $strLen = strlen($str);
@@ -6,6 +7,5 @@ if (!empty($_REQUEST['text'])) {
     $spaceCount = $wordsCount - 1;
     echo 'В тексте '.$wordsCount.' слов, '.$strLen.' символов, '.$spaceCount . ' пробелов.';
 }
-
 ?>
 
